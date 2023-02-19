@@ -1,0 +1,11 @@
+.list {
+  border: 2px solid #000;
+  padding: 20px;
+  width: 450px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.list li:not(:last-child) {
+  margin-bottom: 5px;
+}
